@@ -11,10 +11,15 @@
 ```
   "plugins": {
     "anydoorPlugin": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "provider": "wxc7a2e8eee0e5e95f"
     }
   }
+```
+* 注意：工程设置基础库为 2.2.2 版本，其余版本暂不支持插件打开 web-view 组件
+
+```
+"libVersion": "2.2.2"
 ```
 
 ### 二、导入资源文件
